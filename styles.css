@@ -1,0 +1,21 @@
+/* CSS RESET */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* above don't change*/
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.container div {
+    min-width: 20px;
+    height: 20px;
+    background-color: blue;
+}
